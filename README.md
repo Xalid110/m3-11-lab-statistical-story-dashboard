@@ -83,45 +83,6 @@ Requirements for each panel:
 
 Deliverable: one three-panel figure with a shared `suptitle` that frames the overall question.
 
-### Task 4: Uncertainty Indicators
-
-Go back to the comparison and trend panels from Task 3 and enhance them with uncertainty information:
-
-1. **Comparison panel**: add 95 % confidence interval error bars to each group mean (bootstrap or analytical — your choice).
-2. **Trend panel**: add a shaded confidence band around each group's trend line using `fill_between`.
-3. For at least one panel, add a brief annotation (using `ax.annotate` or `ax.text`) that states the key statistical finding in plain language — for example, "Group A's mean is 4.2 points higher (95 % CI: 1.8–6.6)."
-
-Deliverable: updated two-panel figure (or the full three-panel figure) with error bars, bands, and at least one in-plot annotation.
-
-### Task 5: Annotated Statistical Storytelling
-
-Create one final "hero" chart — a single, polished figure that could appear in a stakeholder presentation. This chart should:
-
-1. Combine data, uncertainty, and annotation into one view.
-2. Use `ax.annotate` with arrows to call out at least two specific data points or regions of interest.
-3. Include a text box (`ax.text` with `bbox`) summarizing the statistical conclusion.
-4. Follow best practices: high contrast, no chart junk, readable font sizes, and an informative title.
-
-Deliverable: one publication-quality figure with annotations and a summary text box.
-
-### Task 6: Peer Review Checklist
-
-Use the checklist below to evaluate either your own dashboard (Tasks 1–5) or a classmate's. Fill in the checklist as a Markdown table in your notebook:
-
-| Criterion | Yes / No | Notes |
-|---|---|---|
-| Axes start at zero (or truncation is justified and labeled) | | |
-| Chart type matches the data type (categorical → bar, continuous → histogram/density, time → line) | | |
-| Titles describe the insight, not just the variable | | |
-| Uncertainty is shown where applicable | | |
-| Color encodes information, not decoration | | |
-| Annotations are concise and non-redundant | | |
-| The dashboard tells a coherent top-to-bottom story | | |
-
-Write a short paragraph (3–5 sentences) summarizing the strengths of the dashboard and one concrete suggestion for improvement.
-
-Deliverable: completed checklist table and a summary paragraph.
-
 ## Submission
 
 ### What to submit
@@ -133,9 +94,6 @@ Deliverable: completed checklist table and a summary paragraph.
 - [ ] Three chart critiques with identified deception techniques and distortion estimates (Task 1).
 - [ ] Three redesigned charts with honest, clearly labeled presentations (Task 2).
 - [ ] One three-panel visual report answering the three specified questions (Task 3).
-- [ ] Uncertainty indicators (error bars, confidence bands, annotations) added to at least two panels (Task 4).
-- [ ] One polished "hero" chart with annotations and a statistical summary text box (Task 5).
-- [ ] Completed peer review checklist and summary paragraph (Task 6).
 - [ ] All cells run without errors from top to bottom.
 
 ### How to submit
